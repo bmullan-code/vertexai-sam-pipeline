@@ -22,6 +22,7 @@ create the pipeline
 ```console
 python sam-kfp-pipeline.py
 ```
+This will create the file 'sam-kfp-pipeline.yaml' in the current directory
 
 ## Run the pipeline
 
@@ -31,16 +32,20 @@ You can run the pipeline job in a couple of ways.
     - Uncomment the line 'job.submit()' in sam-kfp-pipeline.py and re-run it. 
 
 - Using Google Cloud Console
-    - The file 'sam-kfp-pipeline.yaml' was created in the current directory.
+    - Using the file 'sam-kfp-pipeline.yaml'.
     - Goto [VertexAI Pipelines](https://console.cloud.google.com/vertex-ai/pipelines)
     - Select Create Run
     - Select Upload File, Select File, Click Submit
 
 - Scheduled Runs
+    - Using the file 'sam-kfp-pipeline.yaml'.
     - Goto [VertexAI Pipelines](https://console.cloud.google.com/vertex-ai/pipelines)
     - Select Create Run
     - Select Upload File, Select File, Click Submit
     - Select Recurring and complete Schedule Information
+    - ![schedule information](https://raw.githubusercontent.com/bmullan-code/vertexai-sam-pipeline/refs/heads/main/images/pipeline-schedule.png)
+
+
 
 
 - See this [link](https://cloud.google.com/vertex-ai/docs/pipelines/run-pipeline) for more options. 
