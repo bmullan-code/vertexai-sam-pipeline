@@ -1,6 +1,13 @@
 # VertexAI Segment Anything Pipeline
 Run a segment anything model job as a vertexai pipeline with scheduling
 
+## Requirements
+- python develoment environment
+
+- gcloud cli [installation](https://cloud.google.com/sdk/docs/install)
+
+
+
 ## Setup
 ```console
 python -m venv .venv
