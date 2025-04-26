@@ -16,11 +16,11 @@ pip install -r requirements.txt
     - Select "Setup Instructions" for the command to configure your local docker command eg. 
     - ```console
     gcloud auth configure-docker us-central1-docker.pkg.dev
-```    
+    ```    
     - Copy the path to your repository (use the copy tool next to repository name) eg.
-    - ```
+    - ```console
     us-central1-docker.pkg.dev/(project)/vertexai
-```
+    ```
 
 - Build the docker image
     - ```console
