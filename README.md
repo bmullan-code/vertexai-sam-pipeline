@@ -7,7 +7,6 @@ Run a segment anything model job as a vertexai pipeline with scheduling
 - gcloud cli [installation](https://cloud.google.com/sdk/docs/install)
 
 
-
 ## Setup
 ```console
 python -m venv .venv
@@ -45,12 +44,12 @@ pip install -r requirements.txt
 
 ## Create the pipeline
 
-edit the environment variables values in template.txt 
+Edit the environment variables values in template.txt 
 run
 ```console
 mv template.txt .env
 ```
-create the pipeline
+Create the pipeline
 ```console
 python sam-kfp-pipeline.py
 ```
