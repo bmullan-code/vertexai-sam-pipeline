@@ -14,9 +14,8 @@ pip install -r requirements.txt
     - Go to [Artifact Registry](https://console.cloud.google.com/artifacts)
     - Select an existing Docker Repository or Create One and select it
     - Select "Setup Instructions" for the command to configure your local docker command eg. 
-```console
-gcloud auth configure-docker \
-    us-central1-docker.pkg.dev
+    - ```console
+gcloud auth configure-docker us-central1-docker.pkg.dev
 ```    
     - Copy the path to your repository (use the copy tool next to repository name) eg.
 ```
