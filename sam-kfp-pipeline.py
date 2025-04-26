@@ -11,6 +11,7 @@ load_dotenv()  # take environment variables
 project_id =            os.getenv("PROJECT_ID")
 location =              os.getenv("LOCATION")
 bucket_name =           os.getenv("BUCKET_NAME")
+BASE_IMAGE_PATH=        os.getenv("BASE_IMAGE_PATH")
 BUCKET_URI =            os.getenv("BUCKET_URI")
 PIPELINE_ROOT =         os.getenv("PIPELINE_ROOT")
 PIPELINE_PACKAGE_PATH = os.getenv("PIPELINE_PACKAGE_PATH")
@@ -20,7 +21,7 @@ IMAGE_PATH=             os.getenv("IMAGE_PATH")
 aiplatform.init(project=project_id, location=location, staging_bucket=BUCKET_URI)     
 
 @component(
-    base_image="us-central1-docker.pkg.dev/sandbox2-363416/vertexai/pytorch-sam",
+    base_image=BASE_IMAGE_PATH,
     packages_to_install=["scikit-learn==1.5.1","opencv-python"],
 )
 def custom_sam_job(image_path: str):
