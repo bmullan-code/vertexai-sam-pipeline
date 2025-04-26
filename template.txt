@@ -1,5 +1,5 @@
 # edit values and run 'mv template.txt .env'
-BASE_IMAGE_PATH=us-central1-docker.pkg.dev/<project-id>/<repository-name>/pytorch-sam
+CONTAINER_IMAGE_PATH=us-central1-docker.pkg.dev/<project-id>/<repository-name>/pytorch-sam
 PROJECT_ID=project_id
 LOCATION=us-central1
 BUCKET_NAME=bucket_name
