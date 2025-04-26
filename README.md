@@ -24,15 +24,15 @@ pip install -r requirements.txt
 ```
 
 - Build the docker image
-    - ```console
+```console
     cd docker
-    ```
-    - ```console
+```
+```console
     docker build -t <repo-path-from-previous-step>/pytorch-sam:latest .
-    ```
-    - ```console
+```
+```console
     docker push <repo-path-from-previous-step>/pytorch-sam:latest
-    ```
+```
     
 
 
