@@ -88,13 +88,3 @@ if __name__ == "__main__":
     )
 
     # job.submit()
-    # job.run(service_account=SERVICE_ACCOUNT)
-    # job.run()
-    # job.submit()
-    # pipeline_job_schedule = job.create_schedule(
-    #     display_name="Hourly SAM Job",
-    #     cron="TZ=0****",
-    #     max_concurrent_run_count=1,
-    #     max_run_count=5,
-    # )
-     
