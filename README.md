@@ -25,8 +25,15 @@ pip install -r requirements.txt
 
 - Build the docker image
     - ```console
-        cd docker
-```
+    cd docker
+    ```
+    - ```console
+    docker build -t <repo-path-from-previous-step>/pytorch-sam:latest .
+    ```
+    - ```console
+    docker push <repo-path-from-previous-step>/pytorch-sam:latest
+    ```
+    
 
 
 ## Create the pipeline
