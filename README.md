@@ -43,7 +43,7 @@ You can run the pipeline job in a couple of ways.
     - Select Create Run
     - Select Upload File, Select File, Click Submit
     - Select Recurring and complete Schedule Information
-    - ![schedule information](https://raw.githubusercontent.com/bmullan-code/vertexai-sam-pipeline/refs/heads/main/images/pipeline-schedule.png)
+    - ![schedule information](https://raw.githubusercontent.com/bmullan-code/vertexai-sam-pipeline/refs/heads/main/images/pipeline-schedule.png =x250)
 
 
 
