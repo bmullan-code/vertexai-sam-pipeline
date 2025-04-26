@@ -1,0 +1,9 @@
+# edit values and run 'mv template.txt .env'
+PROJECT_ID=project_id
+LOCATION=us-central1
+BUCKET_NAME=bucket_name
+BUCKET_URI=gs://${BUCKET_NAME}
+IMAGE_PATH=${BUCKET_URI}/images
+PIPELINE_ROOT=${BUCKET_URI}/pipeline_root/sam
+PIPELINE_PACKAGE_PATH=sam-kfp-pipeline.yaml
+DISPLAY_NAME=sam-kfp-pipeline
