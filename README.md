@@ -19,9 +19,9 @@ pip install -r requirements.txt
 ```    
 - 
     - Copy the path to your repository (use the copy tool next to repository name) eg.
-    - ```console
+```console
     us-central1-docker.pkg.dev/(project)/vertexai
-    ```
+```
 
 - Build the docker image
     - ```console
