@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ```console
     gcloud auth configure-docker us-central1-docker.pkg.dev
 ```    
+- 
     - Copy the path to your repository (use the copy tool next to repository name) eg.
     - ```console
     us-central1-docker.pkg.dev/(project)/vertexai
